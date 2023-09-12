@@ -16,12 +16,82 @@
   }
 }
 
+
+
+/* styles.css */
+
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  background: #2a2020; /* Choose a suitable background color */
+  margin: 20px;
+  color: #ddd;
+  text-align: center;
 }
+
+input[type=search] { 	
+	padding: 5px;            /* Overridden by padding: 1px; */
+	font-family: Georgia;     /* Overridden by font: -webkit-small-control; */
+	border: 3px solid white;  /* Overridden by border: 2px inset; */
+	background: rgb(70, 44, 33);          /* Overridden by background-color: white; */
+
+  border-radius: 20PX;          /* Irrelevant, I guess */
+}
+h1 {
+  color: #ffff57;
+  font-size: 1cm;
+  letter-spacing: 2px;
+  margin-bottom: 10px;
+}
+
+/* Style for buttons */
+button {
+  color: #cccccc; /* Button text color */
+  border: 3px solid #ccc;
+  border-radius: 20px;
+  font-size: 0.4cm;
+  padding: 5px;
+  margin: 0 10px;
+  cursor: pointer;
+  width: 90px;
+}
+
+button:hover {
+  color: #fff;
+  border-color: #fff;
+}
+
+button:disabled {
+  display: none;
+
+}
+
+.homepage {
+  padding-top: 10%;
+}
+
+
+.page {
+  justify-content: center; /* Center horizontally */
+  align-items: center;
+}
+
+.userPage {
+  padding: 8px 16px;
+  background: #1b1b1b;
+  margin: 16px 0;
+  border-radius: 20px;
+  width:  300px ;
+  margin-left: 36%;
+
+}
+
+.userPage p {
+  margin: 6px 0;
+  color: #999;
+}
+
+.userPage h2 {
+  margin: 10px 0;
+  color: #ffff57;
+}
+
+ 
