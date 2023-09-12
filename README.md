@@ -5,6 +5,7 @@ This is a simple Next.js project that demonstrates how to use React Query to fet
 
 ## Features
 
+- Fetch user data from the API endpoint 'http://localhost:3000/api/users'
 - Fetch and cache user data using React Query.
 - Display 10 users per page with previous and next buttons.
 - Handle loading and error states gracefully.
