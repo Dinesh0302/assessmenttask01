@@ -1,4 +1,13 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+
+# Next.js Project with React Query 
+
+This is a simple Next.js project that demonstrates how to use React Query to fetch and display paginated user data. It includes previous and next buttons to navigate through the user data.
+
+## Features
+
+- Fetch and cache user data using React Query.
+- Display 10 users per page with previous and next buttons.
+- Handle loading and error states gracefully.
 
 ## Getting Started
 
@@ -11,6 +20,8 @@ yarn dev
 # or
 pnpm dev
 ```
+
+
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
