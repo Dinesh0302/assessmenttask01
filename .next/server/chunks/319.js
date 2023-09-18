@@ -291,7 +291,7 @@ var _mutationObserver = __webpack_require__(8336);
 
 exports.MutationObserver = _mutationObserver.MutationObserver;
 
-var _logger = __webpack_require__(1588);
+var _logger = __webpack_require__(1816);
 
 exports.setLogger = _logger.setLogger;
 
@@ -608,7 +608,7 @@ exports.InfiniteQueryObserver = InfiniteQueryObserver;
 
 /***/ }),
 
-/***/ 1588:
+/***/ 1816:
 /***/ ((__unused_webpack_module, exports) => {
 
 "use strict";
@@ -645,7 +645,7 @@ exports.Mutation = void 0;
 
 var _extends2 = _interopRequireDefault(__webpack_require__(3259));
 
-var _logger = __webpack_require__(1588);
+var _logger = __webpack_require__(1816);
 
 var _notifyManager = __webpack_require__(450);
 
@@ -1636,7 +1636,7 @@ var _utils = __webpack_require__(2975);
 
 var _notifyManager = __webpack_require__(450);
 
-var _logger = __webpack_require__(1588);
+var _logger = __webpack_require__(1816);
 
 var _retryer = __webpack_require__(873);
 
@@ -2706,7 +2706,7 @@ var _focusManager = __webpack_require__(3495);
 
 var _subscribable = __webpack_require__(2188);
 
-var _logger = __webpack_require__(1588);
+var _logger = __webpack_require__(1816);
 
 var _retryer = __webpack_require__(873);
 
