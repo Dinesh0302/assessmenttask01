@@ -18,7 +18,7 @@ interface User {
 
 const Users = () => {
   const [currentPage, setCurrentPage] = useState<number>(1);
-  const [searchTerm, setSearchTerm] = useState<string>('');
+  const [searchTerm, setSearchTerm] = useState<string>(''); //
 
   const { data: users, isLoading, isError, isFetching } = useQuery<User[], Error>(
     ['users', currentPage],
