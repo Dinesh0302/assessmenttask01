@@ -17,10 +17,10 @@ interface User {
 }
 
 const Users = () => {
-  const [currentPage, setCurrentPage] = useState(1);
-  const [searchTerm, setSearchTerm] = useState('');
+  const [currentPage, setCurrentPage] = useState<number>(1);
+  const [searchTerm, setSearchTerm] = useState<string>('');
 
-  const { data: users, isLoading, isError, isFetching } = useQuery(
+  const { data: users, isLoading, isError, isFetching } = useQuery<User[], Error>(
     ['users', currentPage],
     () => fetchUsers(currentPage)
   );
@@ -41,7 +41,7 @@ const Users = () => {
       )
     : [];
 
-  const handleSearchInputChange = (e:any) => {
+  const handleSearchInputChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     setSearchTerm(e.target.value);
   };
 
